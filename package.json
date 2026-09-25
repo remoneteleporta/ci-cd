@@ -1,12 +1,12 @@
 {
-  "name": "cicd",
+  "name": "ci-cd",
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
     "db:generate": "npx drizzle-kit generate",
     "db:migrate": "node src/db/migrate.js",
-    "docker:build": "docker build -t cicd .",
-    "docker:run": "docker run -p 3000:3000 --init --env-file .env --rm cicd",
+    "docker:build": "docker build -t ci-cd .",
+    "docker:run": "docker run -p 3000:3000 --init --env-file .env --rm ci-cd",
     "format": "npx prettier . --write",
     "format:check": "npx prettier . --check",
     "lint": "npx eslint .",
