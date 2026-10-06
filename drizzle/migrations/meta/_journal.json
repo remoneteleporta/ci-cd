@@ -29,6 +29,13 @@
       "when": 1791313546036,
       "tag": "0003_backfill_email_address",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791315774914,
+      "tag": "0004_fair_apocalypse",
+      "breakpoints": true
     }
   ]
 }
