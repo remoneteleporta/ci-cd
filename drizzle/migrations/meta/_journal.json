@@ -43,6 +43,13 @@
       "when": 1791372811142,
       "tag": "0005_heavy_scorpion",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791373414177,
+      "tag": "0006_graceful_dark_phoenix",
+      "breakpoints": true
     }
   ]
 }
